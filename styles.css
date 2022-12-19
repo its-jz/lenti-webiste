@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;800&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  html, body {
+    height: 100%;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+@media screen and (min-width: 1000px) {
+    .container{
+        width:50%
+    }
+  }
+
+
+  @media screen and (min-width: 1000px) {
+    .navbar-nav > li{
+        padding-left:30px;
+        padding-right:30px;
+      }
+  }
+
+  @media screen and (min-width: 700px) {
+    .navbar-nav > li{
+        padding-left:15px;
+        padding-right:15px;
+      }
+  }
+
+
+
+
+p{
+    font-size:1rem;
+    line-height: 1.2rem;
+}
+
+body {
+    font-family: "Roboto";
+}
+.my-main{
+    height: 2000px;
+}
+.lenti-font{
+    font-family: 'Unbounded', cursive;
+}
+
+h2{
+    padding-top:7rem;
+}
+
+.my-nav{
+
+    backdrop-filter: blur(6px);
+    background-color: #ffffffab;
+}
+
+.my-logo{
+    font-family: 'Unbounded', cursive;
+    font-size: 3rem;
+    font-weight: 1000;
+}
+
+.img-placeholder{
+    height: 500px
+}
+
+/* .my-img-container{
+    background-color: aquamarine;
+}*/
+
+.my-center-kids{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-standout{
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+
+h2{
+    font-weight: 800;
+}
+h3{
+    font-weight: 100;
+}
+.github-icon{
+  width:2rem;
+  height:2rem;
+}
+.github-icon-container > a{
+  text-decoration: none;
+}
